@@ -19,25 +19,27 @@ public class poi {
 
         int iCol = 0;
         int iRow = 0;
-
+        System.out.println("This Job start!");
         for(List<String> dataRow : excelDatas){
             for(String str : dataRow){
                 if(iCol == 0){
                     //test@naver.com
-                    System.out.println(str);
+                    //System.out.println(str);
                 }
                 else if(iCol == 1){
                     //Seoul
-                    System.out.println(str);
+                    //System.out.println(str);
                 }
                 else if(iCol == 2){
                     //asv
-                    System.out.println(str);
+                    //System.out.println(str);
                 }
                 iCol++;
             }
+
             iCol = 0;
             iRow = 0;
         }
+        System.out.println("This Job end successfully!");
     }
 }
